@@ -1,0 +1,25 @@
+{
+  "name": "likewizedeviceprotection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "generate:testdata": "node test-data/onlineportal/farmers/generateTestData.js",
+    "test:farmersenroll": "npx playwright test testcases/onlineportal/farmers/MultipleDataGenerator/enrollSubscribersSelfServicePortal.spec.js",
+    "test:farmersenroll:dynamic": "npm run generate:testdata && npm run test:farmersenroll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.15",
+    "allure-playwright": "^3.2.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0"
+  }
+}

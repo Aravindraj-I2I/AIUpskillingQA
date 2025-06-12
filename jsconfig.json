@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+  },
+  "include": ["**/*.js", "**/*.json"],
+  "exclude": ["node_modules"]
+}

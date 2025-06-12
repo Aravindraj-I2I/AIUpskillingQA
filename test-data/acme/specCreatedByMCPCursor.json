@@ -1,0 +1,18 @@
+{
+  "validCredentials": {
+    "email": "aravindraj@ideas2it.com",
+    "password": "admin@123"
+  },
+  "invalidCredentials": [
+    {
+      "email": "invalid@example.com",
+      "password": "wrongpassword",
+      "errorMessage": "These credentials do not match our records."
+    },
+    {
+      "email": "",
+      "password": "",
+      "errorMessage": "The email field is required."
+    }
+  ]
+} 
